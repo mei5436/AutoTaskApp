@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动作类型: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视图ID: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本内容: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间: "
+        android:textSize="16sp" />
+
+</LinearLayout>

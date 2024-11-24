@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AutoTaskApp</string>
+    <string name="record_actions_tab_title">actions</string>
+    <string name="auto_tasks_tab_title">Tasks</string>
+
+    <string name="action_settings">设置</string>
+    <string name="menu_item_clear_all">清除所有</string>
+    <string name="menu_item_delete">删除</string>
+    <string name="menu_item_trigger_action">触发执行</string>
+    <string name="menu_item_record_action_options">记录动作选项</string>
+</resources>
