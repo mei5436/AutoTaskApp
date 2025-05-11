@@ -1,4 +1,4 @@
-package com.example.autotaskapp.model;
+package com.sen.mei.autotaskapp.model;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.example.autotaskapp.database.AutoTaskDatabaseHelper;
+import com.sen.mei.autotaskapp.database.AutoTaskDatabaseHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

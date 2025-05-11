@@ -1,4 +1,4 @@
-package com.example.autotaskapp.model;
+package com.sen.mei.autotaskapp.model;
 
 import android.view.accessibility.AccessibilityEvent;
 

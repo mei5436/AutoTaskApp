@@ -1,4 +1,4 @@
-package com.example.autotaskapp.service;
+package com.sen.mei.autotaskapp.service;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.GestureDescription;
@@ -8,7 +8,6 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Path;
@@ -30,13 +29,11 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import androidx.core.app.NotificationCompat;
 
-import com.example.autotaskapp.R;
-import com.example.autotaskapp.ui.MainActivity;
-import com.example.autotaskapp.ui.RecordActionsFragment;
-import com.example.autotaskapp.model.RecordedAction;
-import com.example.autotaskapp.utils.FileUtils;
+import com.sen.mei.autotaskapp.R;
+import com.sen.mei.autotaskapp.ui.MainActivity;
+import com.sen.mei.autotaskapp.model.RecordedAction;
+import com.sen.mei.autotaskapp.utils.FileUtils;
 import com.google.gson.Gson;
 
 import java.io.File;

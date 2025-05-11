@@ -1,9 +1,9 @@
-package com.example.autotaskapp.utils;
+package com.sen.mei.autotaskapp.utils;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.example.autotaskapp.model.RecordedAction;
+import com.sen.mei.autotaskapp.model.RecordedAction;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -11,7 +11,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;

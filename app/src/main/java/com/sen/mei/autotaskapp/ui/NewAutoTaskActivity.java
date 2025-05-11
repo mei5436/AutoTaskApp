@@ -1,7 +1,6 @@
-package com.example.autotaskapp.ui;
+package com.sen.mei.autotaskapp.ui;
 
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -10,14 +9,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TimePicker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.autotaskapp.R;
-import com.example.autotaskapp.model.AutomatedTask;
+import com.sen.mei.autotaskapp.R;
+import com.sen.mei.autotaskapp.model.AutomatedTask;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

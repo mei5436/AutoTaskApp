@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.autotaskapp">
+    package="com.sen.mei.autotaskapp">
 
     <!-- 申请必要权限 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme">
 
         <!-- 注册主活动 -->
-        <activity android:name=".ui.MainActivity"
+        <activity android:name="com.sen.mei.autotaskapp.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,10 +27,10 @@
         </activity>
 
         <!-- 注册新建/编辑自动任务活动 -->
-        <activity android:name=".ui.NewAutoTaskActivity" />
+        <activity android:name="com.sen.mei.autotaskapp.ui.NewAutoTaskActivity" />
 
         <!-- 注册无障碍服务 -->
-        <service android:name=".service.AutoAppAccessibilityService"
+        <service android:name="com.sen.mei.autotaskapp.service.AutoAppAccessibilityService"
             android:exported="true"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:foregroundServiceType="shortService"

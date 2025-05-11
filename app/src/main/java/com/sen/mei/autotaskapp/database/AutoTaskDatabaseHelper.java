@@ -1,4 +1,4 @@
-package com.example.autotaskapp.database;
+package com.sen.mei.autotaskapp.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,10 +1,9 @@
-package com.example.autotaskapp.ui;
+package com.sen.mei.autotaskapp.ui;
 
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -21,10 +20,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.autotaskapp.R;
-import com.example.autotaskapp.database.AutoTaskDatabaseHelper;
-import com.example.autotaskapp.model.AutomatedTask;
-import com.example.autotaskapp.service.AutoAppAccessibilityService;
+import com.sen.mei.autotaskapp.R;
+import com.sen.mei.autotaskapp.database.AutoTaskDatabaseHelper;
+import com.sen.mei.autotaskapp.model.AutomatedTask;
 
 import java.util.ArrayList;
 import java.util.List;

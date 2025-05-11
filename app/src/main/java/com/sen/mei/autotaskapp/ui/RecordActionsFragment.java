@@ -1,4 +1,4 @@
-package com.example.autotaskapp.ui;
+package com.sen.mei.autotaskapp.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,10 +21,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.autotaskapp.R;
-import com.example.autotaskapp.model.RecordedAction;
-import com.example.autotaskapp.service.AutoAppAccessibilityService;
-import com.example.autotaskapp.utils.FileUtils;
+import com.sen.mei.autotaskapp.R;
+import com.sen.mei.autotaskapp.service.AutoAppAccessibilityService;
 
 import java.io.File;
 import java.util.ArrayList;

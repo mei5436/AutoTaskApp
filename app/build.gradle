@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 34
-    namespace "com.example.autotaskapp"
+    namespace "com.sen.mei.autotaskapp"
     defaultConfig {
-        applicationId "com.example.autotaskapp"
+        applicationId "com.sen.mei.autotaskapp"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1

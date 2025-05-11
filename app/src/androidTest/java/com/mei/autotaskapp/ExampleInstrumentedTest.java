@@ -1,4 +1,4 @@
-package com.example.autotaskapp;
+package com.sen.mei.autotaskapp;
 
 import android.content.Context;
 
